@@ -1,0 +1,10 @@
+server:
+  port: 8092
+spring:
+  application:
+    name: aggregator-service
+opentracing: 
+  jaeger:
+    udp-sender:
+      host: jaeger
+      port: 6831
